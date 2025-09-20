@@ -1,0 +1,125 @@
+.homepage {
+    background: url(congestion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background: url(backdrop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(70, 70, 70);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hometitle {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    color:whitesmoke;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.homecontent {
+    font-size: 30px;
+    color:whitesmoke;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.header{
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    padding: 10px;
+}
+
+.header img{
+    width: 64px;
+    height: 64px;
+    margin-left: 50px;
+}
+
+.navbar {
+    align-items: center; 
+    display: flex; 
+    gap: 100px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.navactive a {
+    color: rgb(220, 10, 34);
+}
+
+.title {
+    display: flex;
+    justify-self: center;
+    margin: 50px;
+    color: white;
+}
+
+.content img{
+    width: 900px;
+    display: block;
+    margin: 0px auto;
+}
+
+.content{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column; 
+    margin: 0px 50px;
+}
+
+.bio {
+    text-align: center;
+    margin: 0px 350px;
+    color: white;
+}
+
+.classsched {
+    align-content: center;
+}
+
+caption {
+    font-size: 20px;
+    color: white;
+}
+
+table {
+    background-color: lightslategray;
+    border: 3px solid black;
+    border-spacing: 5px;
+    margin: 100px;
+    justify-self: center;
+}
+
+td {
+    padding: 5px;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+}
